@@ -68,3 +68,80 @@ h1 { font-size: 4rem; margin-bottom: 1rem; }
 .project-card a { color: var(--accent-color); text-decoration: none; font-weight: bold; }
 
 footer { text-align: center; padding: 5rem 0; background: #050505; }
+
+#about {
+    padding: 8rem 10% 5rem 10%;
+    background-color: #121212;
+}
+
+.about-container {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Good for mobile */
+}
+
+.about-text {
+    flex: 2;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 1.2rem;
+}
+
+.about-skills {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-width: 250px;
+}
+
+.skill-box {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-5px);
+}
+
+.skill-box h3 {
+    margin-top: 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    letter-spacing: 1px;
+}
+
+.highlight-box {
+    background: linear-gradient(145deg, #1a1a1a, #000);
+    border: 1px solid var(--accent-color);
+}
+
+.personal-facts h3 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.personal-facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-facts li {
+    margin-bottom: 0.5rem;
+    color: #eee;
+}
